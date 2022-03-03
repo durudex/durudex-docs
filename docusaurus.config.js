@@ -31,7 +31,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'durudex',
-  projectName: 'durudex-docs',
+  projectName: 'durudex.github.io',
+  trailingSlash: false,
 
   presets: [
     [
