@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/durudex/durudex-docs',
+                href: 'https://github.com/durudex',
               },
             ],
           },
