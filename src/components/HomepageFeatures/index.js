@@ -21,29 +21,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Text',
+    title: 'Soon to be',
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Text
+        Soon to be
       </>
     ),
   },
   {
-    title: 'Text',
+    title: 'Soon to be',
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Text
+        Soon to be
       </>
     ),
   },
   {
-    title: 'Text',
+    title: 'Soon to be',
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Text
+        Soon to be
       </>
     ),
   },
