@@ -49,7 +49,18 @@ const config = {
       }),
     ],
   ],
-
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'uk'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      uk: {
+        label: 'Українська',
+      },
+    },
+  },
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -67,8 +78,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
