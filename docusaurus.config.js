@@ -51,13 +51,16 @@ const config = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'uk'],
+    locales: ['en', 'uk', 'ru'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       uk: {
         label: 'Українська',
+      },
+      ru: {
+        label: 'Русский',
       },
     },
   },
@@ -84,7 +87,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
