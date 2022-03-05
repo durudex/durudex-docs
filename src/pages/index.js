@@ -21,20 +21,31 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomeFeature from '@site/src/components/Home';
+import Translate from '@docusaurus/Translate';
 
-function HomepageHeader() {
+function HomeHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">
+          <Translate id='home.title' description='Home page title'>
+            Durudex Documentation
+          </Translate>
+        </h1>
+        <p className="hero__subtitle">
+          <Translate id='home.subtitle' description='Home page subtitle'>
+            Here you can find a lot of interesing things!
+          </Translate>
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/intro">
-            Go to Documentation
+              <Translate id='home.button.docs' description='Home page documentation button'>
+                Go to documentation
+              </Translate>
           </Link>
         </div>
       </div>
@@ -47,9 +58,9 @@ export default function Home() {
   return (
     <Layout
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <HomeHeader />
       <main>
-        <HomepageFeatures />
+        <HomeFeature />
       </main>
     </Layout>
   );

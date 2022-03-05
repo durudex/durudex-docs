@@ -221,5 +221,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
     "description": "The title of the tag list page"
+  },
+  "home.title": {
+    "message": "Durudex Документация",
+    "description": "Home page title"
+  },
+  "home.subtitle": {
+    "message": "Здесь ты можешь найти очень много интересного!",
+    "description": "Home page subtitle"
+  },
+  "home.button.docs": {
+    "message": "Перейти к документации",
+    "description": "Home page documentation button"
   }
 }

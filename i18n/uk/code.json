@@ -148,11 +148,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Попередня",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Наступна",
     "description": "The label used to navigate to the next doc"
   },
   "theme.common.editThisPage": {
@@ -221,5 +221,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "home.title": {
+    "message": "Durudex Документація",
+    "description": "Home page title"
+  },
+  "home.subtitle": {
+    "message": "Тут ти можеш знайти багато цікавого!",
+    "description": "Home page subtitle"
+  },
+  "home.button.docs": {
+    "message": "Перейти до документації",
+    "description": "Home page documentation button"
   }
 }

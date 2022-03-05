@@ -63,7 +63,7 @@ function Feature({Svg, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomeFeature() {
   return (
     <section className={styles.features}>
       <div className="container">

@@ -23,8 +23,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Durudex Documentation',
-  tagline: 'Here you can find all about Durudex!',
+  title: 'Durudex Docs',
   url: 'https://docs.durudex.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
