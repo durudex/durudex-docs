@@ -27,6 +27,7 @@ This can be done in many ways, the main thing is to get them yourself.
 
 - Get rewarded for achievement.
 - Sell NFT.
+- Development assistance.
 
 ## 💰 What is developer account?
 
