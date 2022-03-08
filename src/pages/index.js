@@ -27,7 +27,7 @@ import Translate from '@docusaurus/Translate';
 function HomeHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
           <Translate id='home.title' description='Home page title'>
@@ -36,7 +36,7 @@ function HomeHeader() {
         </h1>
         <p className="hero__subtitle">
           <Translate id='home.subtitle' description='Home page subtitle'>
-            Here you can find a lot of interesing things!
+            Cool open source social network of the future
           </Translate>
         </p>
         <div className={styles.buttons}>

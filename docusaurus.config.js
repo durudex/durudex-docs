@@ -118,6 +118,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/durudex',
               },
+              {
+                label: 'Source Code',
+                href: 'https://github.com/durudex/durudex-docs',
+              },
             ],
           },
         ],
