@@ -30,9 +30,7 @@ function HomeHeader() {
     <header className={clsx('hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
-          <Translate id='home.title' description='Home page title'>
-            Durudex Documentation
-          </Translate>
+          Durudex
         </h1>
         <p className="hero__subtitle">
           <Translate id='home.subtitle' description='Home page subtitle'>

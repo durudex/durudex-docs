@@ -222,10 +222,6 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "home.title": {
-    "message": "Durudex Документація",
-    "description": "Home page title"
-  },
   "home.subtitle": {
     "message": "Крута соціальна мережа майбутнього",
     "description": "Home page subtitle"
