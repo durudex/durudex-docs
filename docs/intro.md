@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# 👋 Introduction
 
 Hello, we are Durudex team. We want to tell you everything about our project. Durudex is free social media, 
 where users play a significant role.
