@@ -1,39 +1,20 @@
-# Durudex Documentation
+<div align="center">
+    <a href="https://discord.gg/4qcXbeVehZ">
+        <img alt="Discord" src="https://img.shields.io/discord/882288646517035028?label=%F0%9F%92%AC%20discord">
+    </a>
+    <a href="https://github.com/durudex/durudex-docs/blob/main/COPYING">
+        <img alt="License" src="https://img.shields.io/github/license/durudex/durudex-docs?label=%F0%9F%93%95%20license">
+    </a>
+    <a href="https://github.com/durudex/durudex-docs/stargazers">
+        <img alt="GitHub Stars" src="https://img.shields.io/github/stars/durudex/durudex-docs?label=%E2%AD%90%20stars&logo=sdf">
+    </a>
+    <a href="https://github.com/durudex/durudex-docs/network">
+        <img alt="GitHub Forks" src="https://img.shields.io/github/forks/durudex/durudex-docs?label=%F0%9F%93%81%20forks">
+    </a>
+</div>
 
-### Installation
+<h1 align="center">⚡️ Durudex Documentation</h1>
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<p align="center">
+Website with documentation for Durudex.
+</p>
