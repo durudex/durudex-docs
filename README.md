@@ -18,3 +18,14 @@
 <p align="center">
 Website with documentation for Durudex.
 </p>
+
+## ⚙️ Build & Run
+Use `npm run start` to run and `npm run build` to build project.
+
+## 👍 Contribute
+If you want to say thank you and/or support the active development of [Durudex](https://github.com/durudex):
+1) Add a [GitHub Star](https://github.com/durudex/durudex-docs/stargazers) to the project.
+2) Join the [Discord Server](https://discord.gg/4qcXbeVehZ).
+
+## ⚠️ License
+Copyright © 2022 [Durudex](https://github.com/durudex). Released under the [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html) license.
