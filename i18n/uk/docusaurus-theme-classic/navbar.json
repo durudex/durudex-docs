@@ -3,8 +3,12 @@
     "message": "Durudex",
     "description": "The title in the navbar"
   },
-  "item.label.Documentation": {
-    "message": "Документація",
-    "description": "Navbar item with label Documentation"
+  "item.label.Project": {
+    "message": "Проєкт",
+    "description": "Navbar item with label Project"
+  },
+  "item.label.Dev": {
+    "message": "Розробка",
+    "description": "Navbar item with label Dev"
   }
 }

@@ -1,16 +1,16 @@
 /*
  * Copyright © 2022 Durudex
- 
+
  * This file is part of Durudex: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
  * published by the Free Software Foundation, either version 3 of the
  * License, or (at your option) any later version.
- 
+
  * Durudex is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Affero General Public License for more details.
- 
+
  * You should have received a copy of the GNU Affero General Public License
  * along with Durudex. If not, see <https://www.gnu.org/licenses/>.
  */
@@ -39,6 +39,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs/project',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/durudex/durudex-docs/tree/main/',
           routeBasePath: '/',
@@ -50,18 +51,27 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      {
+        id: 'dev',
+        path: 'docs/dev',
+        routeBasePath: 'dev',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }
+    ]
+  ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'uk', 'ru'],
+    locales: ['en', 'uk'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       uk: {
         label: 'Українська',
-      },
-      ru: {
-        label: 'Русский',
       },
     },
   },
@@ -79,7 +89,13 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: 'Project',
+          },
+          {
+            to: '/dev/intro',
+            position: 'left',
+            label: 'Dev',
+            activeBaseRegex: `/dev/`,
           },
           {
             type: 'localeDropdown',
@@ -94,8 +110,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
+                label: 'Проєкт',
                 to: '/intro',
+              },
+              {
+                label: 'Розробка',
+                to: 'dev/intro',
               },
             ],
           },
