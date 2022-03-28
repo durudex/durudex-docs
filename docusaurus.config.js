@@ -43,6 +43,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/durudex/durudex-docs/tree/main/',
           routeBasePath: '/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,6 +62,9 @@ const config = {
         path: 'docs/dev',
         routeBasePath: 'dev',
         sidebarPath: require.resolve('./sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        editUrl: 'https://github.com/durudex/durudex-docs/tree/main/',
       }
     ]
   ],
