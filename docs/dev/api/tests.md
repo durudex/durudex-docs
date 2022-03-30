@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# ⚙️ Тестове API
+# ⚙️ Test API
 
-Для розробки ви можете використовувати наше тестове API, яке дає повний функціонал головного API.
+You can use our test API for development, which gives the full functionality of the main API.
 
-## Запуск
+## Start
 
-Щоб запустити, у вас повинен бути встановлений Docker.
+To start you need to have Docker on your PC.
 
 ```sh
 # Clone repository.
@@ -21,26 +21,25 @@ cd durudex-test-api
 touch .env
 ```
 
-Потрібно відредагувати `.env` файл по даному прикладу:
+You need to edit `.env` file as shown here:
 ```env
 API_PORT=8000
 ```
 
-Для запуску вам потрібно ввести в термінал `make`.
+To start you need to enter this command in the terminal `make`.
 
-## Використання
+## Usage
 
-Ми використовуємо мову запитів GraphQL для взаємодії з сервером. Щоб перейти до веб редактора запитів, вам 
-потрібно відчинити в блаузері **[localhost:8000](http://localhost:8000)**.
+We use GraphQL to interact with the server. To go to the web query editor, you need to open this in your browser **[localhost:8000](http://localhost:8000)**.
 
-Зразок запиту для перевірки роботи:
+Sample request to check the work:
 ```graphql
 query {
   ping
 }
 ```
 
-Запит для створення акаунта:
+Request to create an account:
 ```graphql
 mutation {
   signUp(input: {
@@ -52,11 +51,11 @@ mutation {
 }
 ```
 
-## Docker контейнер
+## Docker container
 
-Також ви можете використовувати готовий docker контейнер 
+You can also use a ready-made docker container
 [v1def/durudex-test-api](https://hub.docker.com/repository/docker/v1def/durudex-test-api).
 
-#### Приклади використання контейнера:
+#### Samples of using container:
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)

@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# 👨‍🏭 Розробка
+# 👨‍🏭 Development
 
-Привіт, тебе вітає команда розробків Durudex. В цій документації ти знайдеш дуже багато цікавого звязаного з розробкою.
+Hello, we are Durudex development team. In this documentation you will find a lot of interesting things related to development of our products.
