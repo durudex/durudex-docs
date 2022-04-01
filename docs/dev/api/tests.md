@@ -46,7 +46,7 @@ mutation {
     username: "example",
     email: "example@durudex.com"
     password: "qwerty",
-    code: "000000"
+    code: "111111"
   })
 }
 ```
@@ -59,3 +59,24 @@ You can also use a ready-made docker container
 #### Samples of using container:
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
+
+## Хибні вхідні дані
+
+Якщо ви хочете отримати помилку від сервера, то вам потрібно ввести такі вхідні дані:
+
++ Email - **false@false.false**
++ Code - **0**
++ Other - **false**
+
+Приклад хибного запиту:
+```graphql
+mutation {
+  signIn(input: {
+    username: "false",
+    password: "false",
+  }) {
+    access
+    refresh
+  }
+}
+```
