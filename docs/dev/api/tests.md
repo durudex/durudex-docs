@@ -60,15 +60,15 @@ You can also use a ready-made docker container
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
 
-## Хибні вхідні дані
+## Incorrect input
 
-Якщо ви хочете отримати помилку від сервера, то вам потрібно ввести такі вхідні дані:
+If you need to get error from server, then you need to enter the following input:
 
 + Email - **false@false.false**
 + Code - **0**
 + Other - **false**
 
-Приклад хибного запиту:
+Example of false input:
 ```graphql
 mutation {
   signIn(input: {
