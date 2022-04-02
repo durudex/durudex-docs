@@ -115,11 +115,11 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Проєкт',
+                label: 'Project',
                 to: '/intro',
               },
               {
-                label: 'Розробка',
+                label: 'Dev',
                 to: 'dev/intro',
               },
             ],
