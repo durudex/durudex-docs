@@ -68,11 +68,11 @@
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "Скопійовано",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Копіювати",
     "description": "The copy button label on code blocks"
   },
   "theme.blog.post.paginator.navAriaLabel": {
@@ -183,7 +183,7 @@
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " в {date}",
+    "message": " було {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {

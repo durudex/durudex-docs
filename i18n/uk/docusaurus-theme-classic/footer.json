@@ -34,5 +34,13 @@
   "link.item.label.Source Code": {
     "message": "Вихідний Код",
     "description": "The label of footer link with label=Source Code linking to https://github.com/durudex/durudex-docs"
+  },
+  "link.item.label.Project": {
+    "message": "Проєкт",
+    "description": "The label of footer link with label=Project linking to /intro"
+  },
+  "link.item.label.Dev": {
+    "message": "Розробка",
+    "description": "The label of footer link with label=Dev linking to dev/intro"
   }
 }

@@ -3,8 +3,8 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.api": {
+  "sidebar.tutorialSidebar.category.API": {
     "message": "API",
-    "description": "The label for category api in sidebar tutorialSidebar"
+    "description": "The label for category API in sidebar tutorialSidebar"
   }
 }
