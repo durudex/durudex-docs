@@ -229,5 +229,29 @@
   "home.button.docs": {
     "message": "Перейти до документації",
     "description": "Home page documentation button"
+  },
+  "feature.title.freedom": {
+    "message": "Свобода",
+    "description": "Feature title freedom"
+  },
+  "feature.description.freedom": {
+    "message": "Відіграє важливу роль, вас будуть обмежувати тільки правила спільноти.",
+    "description": "Feature description freedom"
+  },
+  "feature.title.voting": {
+    "message": "Вибір Користувачів",
+    "description": "Feature title voting"
+  },
+  "feature.description.voting": {
+    "message": "Всі важливі питання будуть вирішувати користувачі, за допомоги голосування.",
+    "description": "Feature description voting"
+  },
+  "feature.title.openness": {
+    "message": "Відкритість",
+    "description": "Feature title openness"
+  },
+  "feature.description.openness": {
+    "message": "Весь вихідний код відкритий, ви зможете його використовувати або модифікувати.",
+    "description": "Feature description openness"
   }
 }
