@@ -29,7 +29,7 @@ This can be done in many ways, the main thing is to get them yourself.
 - Sell NFT.
 - Development assistance.
 
-## What is developer account?
+## What is developer account?
 
 This is an account where developers can store their coins. At the end of each month, these coins will be 
 distributed among all the developers on the list, and the list will be cleared. To get on this list you need 
