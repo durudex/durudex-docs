@@ -27,7 +27,7 @@ const FeatureList = [
         Freedom
       </Translate>
     ),
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/freedom.svg').default,
     description: (
       <Translate id='feature.description.freedom' description='Feature description freedom'>
         Is an important part, you will be limited only by community rules.
@@ -40,7 +40,7 @@ const FeatureList = [
         Users Choice
       </Translate>
     ),
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/voting.svg').default,
     description: (
       <Translate id='feature.description.voting' description='Feature description voting'>
         Users will vote for all important issues.
@@ -53,7 +53,7 @@ const FeatureList = [
         Open Source
       </Translate>
     ),
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/openness.svg').default,
     description: (
       <Translate id='feature.description.openness' description='Feature description openness'>
         All source code is open, you can use or modify it.
