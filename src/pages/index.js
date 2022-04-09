@@ -1,16 +1,16 @@
 /*
  * Copyright © 2022 Durudex
- 
+
  * This file is part of Durudex: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
  * published by the Free Software Foundation, either version 3 of the
  * License, or (at your option) any later version.
- 
+
  * Durudex is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU Affero General Public License for more details.
- 
+
  * You should have received a copy of the GNU Affero General Public License
  * along with Durudex. If not, see <https://www.gnu.org/licenses/>.
  */
@@ -25,13 +25,10 @@ import HomeFeature from '@site/src/components/Home';
 import Translate from '@docusaurus/Translate';
 
 function HomeHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">
-          Durudex
-        </h1>
+        <h1 className="hero__title">Durudex</h1>
         <p className="hero__subtitle">
           <Translate id='home.subtitle' description='Home page subtitle'>
             Cool open source social network of the future
@@ -55,7 +52,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="Description will go into a meta tag in <head />">
+      description={siteConfig.tagline}>
       <HomeHeader />
       <main>
         <HomeFeature />
