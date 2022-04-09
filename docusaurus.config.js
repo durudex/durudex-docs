@@ -24,6 +24,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Durudex Docs',
+  tagline: 'Cool open source social network of the future',
   url: 'https://docs.durudex.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
