@@ -34,13 +34,6 @@ To start you need to enter this command in the terminal `make`.
 
 We use GraphQL to interact with the server. To go to the web query editor, you need to open this in your browser **[localhost:8000](http://localhost:8000)**.
 
-Sample request to check the work:
-```graphql
-query {
-  ping
-}
-```
-
 Request to create an account:
 ```graphql
 mutation {
