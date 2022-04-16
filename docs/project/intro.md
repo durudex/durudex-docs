@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: 👋 Introduction
+description: Hello, we are Durudex team. We want to tell you everything about our project.
 ---
 
 # 👋 Introduction

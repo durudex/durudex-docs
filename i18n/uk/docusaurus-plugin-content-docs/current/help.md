@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+title: ❤️ Допомога
+description: Ви можете допомогти в розвитку Durudex.
 ---
 
 # ❤️ Допомога
