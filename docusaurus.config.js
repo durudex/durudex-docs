@@ -67,6 +67,29 @@ const config = {
         showLastUpdateTime: true,
         editUrl: 'https://github.com/durudex/durudex-docs/tree/main/',
       }
+    ],
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'img/logo.svg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: 'manifest.json',
+          },
+        ],
+      }
     ]
   ],
   i18n: {
