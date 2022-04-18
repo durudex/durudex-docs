@@ -39,7 +39,7 @@ function HomeHeader() {
             className="button button--secondary button--lg"
             to="/intro">
               <Translate id='home.button.docs' description='Home page documentation button'>
-                Go to documentation
+                📚 Go to documentation
               </Translate>
           </Link>
         </div>

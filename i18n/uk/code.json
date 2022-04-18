@@ -8,15 +8,15 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "Сторінку не знайдено",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "Ми не змогли знайти те, що ви шукали.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "Будь ласка, зв’яжіться з власником сайту, який прив’язав вас до оригінальної URL-адреси, і повідомте йому, що його посилання непрацездатне.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -128,11 +128,11 @@
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
+    "message": "Згорнути бічну панель",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
+    "message": "Згорнути бічну панель",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -179,7 +179,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to heading",
+    "message": "Пряме посилання на заголовок",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -227,7 +227,7 @@
     "description": "Home page subtitle"
   },
   "home.button.docs": {
-    "message": "Перейти до документації",
+    "message": "📚 Перейти до документації",
     "description": "Home page documentation button"
   },
   "feature.title.freedom": {
