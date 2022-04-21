@@ -33,11 +33,12 @@ You need to edit `.env` file as shown here:
 API_PORT=8000
 ```
 
-To start you need to enter this command in the terminal `make`.
+To start you need to enter this command in the terminal `make`. Тепер ви можете відчинити [localhost:8000](http://localhost:8000).
 
-## Usage
+## Використання
 
-We use GraphQL to interact with the server. To go to the web query editor, you need to open this in your browser [localhost:8000](http://localhost:8000).
+Ми використовуємо мову запитів GraphQL для взаємодії з сервером. Для пробних запитів ви можете використовувати
+редакток запитів. Якщо вам потрібне пряме посилання для запитів, то додайте `/query` до основого посилання.
 
 Request to create an account:
 ```graphql
