@@ -20,3 +20,8 @@ At the end you need to do pull request to main repository. if the development te
 then it will be accepted.
 And if not then you will be told what is wrong so you can fix it.
 
+## Створювати дизайн
+
+Після того як ви завершили свою роботу, вам потрібно написати нам в нашому [Discord сервері](https://discord.gg/4qcXbeVehZ).
+З вами звʼяжуться дизайнери з команди Durudex, зверніть увагу щоб в них була роль **Durudex Team**. Вони переглянуть вашу 
+роботу, і вирішать що з нею робити.
