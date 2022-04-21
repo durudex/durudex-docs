@@ -67,9 +67,9 @@ You can also use a ready-made docker container
 
 If you need to get error from server, then you need to enter the following input:
 
-+ Email - false@false.false
-+ Code - 0
-+ Other - false
++ Email - `false@false.false`
++ Code - `0`
++ Other - `false`
 
 Example of false input:
 ```graphql
