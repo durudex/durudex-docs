@@ -36,7 +36,7 @@ To start you need to enter this command in the terminal `make`. Тепер ви 
 
 ## Usage
 
-We use GraphQL for server interaction. You can use query editors for test queries.. If you need a direct link for queries, add `/ query` to the main link.
+We use GraphQL for server interaction. You can use query editors for test queries. If you need a direct link for queries, add `/query` to the main link.
 
 Request to create an account:
 ```graphql
