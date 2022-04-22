@@ -12,7 +12,7 @@ Here is interesting information about working with users in our API.
 
 You'll need the following information to create a new user account:
 
-+ Username - Унікальне імя користувача
++ Username - Unique username
 + Password - Strong password
 + Email - User's email address
 + Code - E-mail confirmation code
