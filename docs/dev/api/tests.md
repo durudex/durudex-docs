@@ -8,10 +8,9 @@ description: You can use our test API for development, which gives the full func
 
 You can use our test API for development, which gives the full functionality of the main API.
 
-## Готове рішення
+## Complete solution
 
-Якщо вам не потрібно, або ви не хочете запускати в себе на компютері додаток тестового API. То ви можете
-використати наше готове рішення - https://api.dev.durudex.com.
+If you don't need or don't want to run a test API on your computer. Then you can use our ready-made solution - https://api.dev.durudex.com.
 
 ## Start
 
@@ -35,10 +34,9 @@ API_PORT=8000
 
 To start you need to enter this command in the terminal `make`. Тепер ви можете відчинити [localhost:8000](http://localhost:8000).
 
-## Використання
+## Usage
 
-Ми використовуємо мову запитів GraphQL для взаємодії з сервером. Для пробних запитів ви можете використовувати
-редакток запитів. Якщо вам потрібне пряме посилання для запитів, то додайте `/query` до основого посилання.
+We use GraphQL for server interaction. You can use query editors for test queries.. If you need a direct link for queries, add `/ query` to the main link.
 
 Request to create an account:
 ```graphql
@@ -52,7 +50,6 @@ mutation {
 }
 ```
 
-Якщо вам потрібне пряме посилання для запитів, то додайте `/query` до основого посилання.
 
 ## Docker container
 
