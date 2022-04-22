@@ -8,7 +8,7 @@ description: Here is interesting information about working with users in our API
 
 Here is interesting information about working with users in our API.
 
-## Registration
+## Sign Up
 
 You'll need the following information to create a new user account:
 
@@ -40,7 +40,7 @@ mutation {
 }
 ```
 
-## Sign in
+## Sign In
 
 You will need your credentials to sign in to your account:
 
@@ -88,7 +88,7 @@ To send a request that requires authentication, you need to add an http header:
 }
 ```
 
-## Sign out
+## Sign Out
 
 In order to log out of your account, you need to refresh the token and be authenticated.
 
