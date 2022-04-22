@@ -32,7 +32,7 @@ You need to edit `.env` file as shown here:
 API_PORT=8000
 ```
 
-To start you need to enter this command in the terminal `make`. Тепер ви можете відчинити [localhost:8000](http://localhost:8000).
+To start you need to enter this command in the terminal `make`. Now you can open [localhost:8000](http://localhost:8000).
 
 ## Usage
 
