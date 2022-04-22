@@ -40,9 +40,9 @@ mutation {
 }
 ```
 
-## Log in
+## Sign in
 
-You will need your credentials to log in to your account:
+You will need your credentials to sign in to your account:
 
 + Username - Your account name
 + Password - Your account password
