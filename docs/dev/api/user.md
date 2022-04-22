@@ -1,23 +1,23 @@
 ---
 sidebar_position: 2
-title: 🙂 Користувач
-description: Тут знаходиться цікава інформація, про роботу з користувачами в нашому API.
+title: 🙂 User
+description: Here is interesting information about working with users in our API.
 ---
 
-# 🙂  Користувач
+# 🙂  User
 
-Тут знаходиться цікава інформація про роботу з користувачами в нашому API.
+Here is interesting information about working with users in our API.
 
-## Реєстрація
+## Registration
 
-Для того щоб створити новий обліковий запис користувача, вам знадобляться такі дані:
+You'll need the following information to create a new user account:
 
 + Username - Унікальне імя користувача
-+ Password - Надійний пароль користувача
-+ Email - Адрес електронної скриньки користувача
-+ Code - Код підтвердження володіння електронної скриньки
++ Password - Strong password
++ Email - User's email address
++ Code - E-mail confirmation code
 
-Щоб отримати код підтвердження, потрібно відправити такий запит:
+To receive a verification code, you must submit the following request:
 
 ```graphql
 mutation {
@@ -25,9 +25,9 @@ mutation {
 }
 ```
 
-На електронну скриньку прийде повідомлення з кодом підтвердження.
+A message with a confirmation code will be sent to the e-mail.
 
-Запит для створення облікового запису:
+Request to create an account:
 
 ```graphql
 mutation {
@@ -40,14 +40,14 @@ mutation {
 }
 ```
 
-## Вхід
+## Log in
 
-Щоб увійти в ваш обліковий запис, вам знадобляться облікові дані:
+You will need your credentials to log in to your account:
 
-+ Username - Імя вашого облікового запису
-+ Password - Пароль вашого облікового запису
++ Username - Your account name
++ Password - Your account password
 
-Запит для входу в обліковий запис:
+Request to log in to your account:
 
 ```graphql
 mutation {
@@ -61,26 +61,26 @@ mutation {
 }
 ```
 
-Вам будуть повернені токени аутентифікації вашого облікового запису.
+You will be refunded the authentication tokens of your account
 
-## Аутентифікація
+## Authentication
 
-Аутентифікація потрібна в деяких запитах, для того щоб розпізнавати користувача. Для цього в нас
-використовуються два токени, `access` та `refresh`.
+Authentication is required in some requests in order to recognize the user. To do this, we have
+two tokens are used, `access` and` refresh`.
 
-**Access** - це JWT токен, який пригодний невелику кількість часу. Він використовується в запитах
-яким потрібна аутентифікація.
+**Access** - it is a JWT token that is valid for a small amount of time. It is used in queries
+who need authentication.
 
-**Refresh** - це токен який використовується для оновлення access токена.
+**Refresh** - is a token used to update the access token.
 
-Запит для оновлення access токена:
+Request to update access token:
 ```graphql
 mutation {
   refreshToken(input: {token: "you-refresh-token"})
 }
 ```
 
-Щоб надіслати запит, якому потрібна аутентифікація, вам потрібно додати http заголовок:
+To send a request that requires authentication, you need to add an http header:
 
 ```json
 {
@@ -88,11 +88,11 @@ mutation {
 }
 ```
 
-## Вихід
+## Sign out
 
-Для того щоб вийти з вашого облікового запису, вам потрібно refresh токен і бути аутентифікованим.
+In order to log out of your account, you need to refresh the token and be authenticated.
 
-Запит для виходу з облікового запису:
+Request to sign out:
 ```graphql
 mutation {
   signOut(input: {token: "you-refresh-token"})
@@ -100,17 +100,17 @@ mutation {
 ```
 
 
-## Забули пароль
+## Forgot password 
 
-Якщо вам потрібно відновити пароль користувача, вам знадобляться такі дані:
+If you need to reset your user password, you will need the following information:
 
-+ Email - Адрес електронної скриньки користувача
-+ Password - Новий надійний пароль користувача
-+ Code - Код підтвердження володіння електронної скриньки
++ Email - User's email address
++ Password - New strong user password
++ Code - Code to confirm of the e-mail
 
-Для отримання коду підтверження, вам потрібно використати `getCodeByEmail()`.
+To get a verification code, you need to use `getCodeByEmail()`.
 
-Запит для відновлення паролю користувача:
+Request to reset user password:
 ```graphql
 mutation {
   forgotPassword(input: {
@@ -121,11 +121,11 @@ mutation {
 }
 ```
 
-## Отримати користувача
+## Get the user
 
-Ви можете отримати всю публічну інформацію про користувача.
+You can get all the public information about the user.
 
-Запит для отримання користувача за допомоги id:
+Request to get a user using id:
 ```graphql
 query {
   getUser(id: "user-id") {
