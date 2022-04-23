@@ -6,7 +6,9 @@ description: You can use our test API for development, which gives the full func
 
 # ⚙️ Test API
 
-You can use our test API for development, which gives the full functionality of the main API.
+You can use our test API for development, which gives the full functionality of the main API. 
+Зверніть увагу, що дані які вам повертає сервер, не є реальними. Кожного разу при одинакових запитах
+дані будуть різні.
 
 ## Complete solution
 

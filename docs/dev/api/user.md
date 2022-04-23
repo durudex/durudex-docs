@@ -66,7 +66,7 @@ You will be refunded the authentication tokens of your account
 ## Authentication
 
 Authentication is required in some requests in order to recognize the user. To do this, we have
-two tokens are used, `access` and` refresh`.
+two tokens are used, `access` and `refresh`.
 
 **Access** - it is a JWT token that is valid for a small amount of time. It is used in queries
 who need authentication.
