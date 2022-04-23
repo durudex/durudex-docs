@@ -8,16 +8,15 @@ description: Hello, we are Durudex development team. In this documentation you w
 
 Hello, we are Durudex development team. In this documentation you will find a lot of interesting things related to development of our products.
 
-## Корисні посилання
+## Useful links
 
-Ви зможете знайти корисні посилання які допоможуть вам в розробці.
+You can find useful links that might help you with development.
 
-### Головна схема API
+### The main scheme of the API
 
-Ми використовуємо мову запитів GraphQL для взаємодії з сервером. Для використання нашого API вам може знадобитися схема,
-знайти її ви зможете тут [durudex/durudex-graphql-schema](https://github.com/durudex/durudex-graphql-schema).
+We use the GraphQL query language to interact with the server. To use our API you may need a schematic
+you can find it here [durudex/durudex-graphql-schema](https://github.com/durudex/durudex-graphql-schema).
 
-### Технології
+### Technologies 
 
-Якщо вам цікаво дізнатися список технологій які ми використовуємо для розробки, то ви можете знайти таку інформацію в
-[Stack Share](https://stackshare.io/durudex/durudex).
+You can find the list of technologies we use for development in this list [Stack Share](https://stackshare.io/durudex/durudex).
