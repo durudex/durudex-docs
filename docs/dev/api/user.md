@@ -17,15 +17,7 @@ You'll need the following information to create a new user account:
 + Email - User's email address
 + Code - E-mail confirmation code
 
-To receive a verification code, you must submit the following request:
-
-```graphql
-mutation {
-  getCodeByEmail(input: {email: "example@durudex.com"})
-}
-```
-
-A message with a confirmation code will be sent to the e-mail.
+You can learn how to get the verification code [here](#get-verification-code).
 
 Request to create an account:
 
@@ -108,7 +100,7 @@ If you need to reset your user password, you will need the following information
 + Password - New strong user password
 + Code - Code to confirm of the e-mail
 
-To get a verification code, you need to use `getCodeByEmail()`.
+You can learn how to get the verification code [here](#get-verification-code).
 
 Request to reset user password:
 ```graphql
@@ -136,3 +128,19 @@ query {
   }
 }
 ```
+
+## Get verification code
+
+You will need a verification code for some queries. You can get it by sending the following request:
+
+```graphql
+mutation {
+  createVerifyEmailCode(email: "example@durudex.com")
+}
+```
+
+The specified e-mail will receive a message with a confirmation code.
+
+:::tip
+Use this code as soon as possible, it doesn't last long.
+:::
