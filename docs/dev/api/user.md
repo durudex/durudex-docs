@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: 🙂 User
 description: Here is interesting information about working with users in our API.
 ---
@@ -120,7 +120,7 @@ You can get all the public information about the user.
 Request to get a user using id:
 ```graphql
 query {
-  getUser(id: "user-id") {
+  user(id: "user-id") {
     username
     avatarUrl
     createdAt

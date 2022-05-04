@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: ⚙️ Тестове API
 description: Для розробки ви можете використовувати наше тестове API, яке дає повний функціонал головного API.
 ---

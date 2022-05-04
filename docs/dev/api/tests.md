@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: ⚙️ Test API
 description: You can use our test API for development, which gives the full functionality of the main API.
 ---

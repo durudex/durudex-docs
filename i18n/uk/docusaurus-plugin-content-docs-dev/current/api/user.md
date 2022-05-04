@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: 🙂 Користувач
 description: Тут знаходиться цікава інформація, про роботу з користувачами в нашому API.
 ---
@@ -120,7 +120,7 @@ mutation {
 Запит для отримання користувача за допомоги id:
 ```graphql
 query {
-  getUser(id: "user-id") {
+  user(id: "user-id") {
     username
     avatarUrl
     createdAt
