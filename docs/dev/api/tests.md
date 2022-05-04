@@ -60,24 +60,3 @@ You can also use a ready-made docker container
 #### Samples of using container:
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
-
-## Incorrect input
-
-If you need to get error from server, then you need to enter the following input:
-
-+ Email - `false@false.false`
-+ Code - `0`
-+ Other - `false`
-
-Example of false input:
-```graphql
-mutation {
-  signIn(input: {
-    username: "false",
-    password: "false",
-  }) {
-    access
-    refresh
-  }
-}
-```

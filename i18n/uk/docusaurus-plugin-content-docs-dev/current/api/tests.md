@@ -50,24 +50,3 @@ API_PORT=8000
 #### Приклади використання контейнера:
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
-
-## Хибні вхідні дані
-
-Якщо ви хочете отримати помилку від сервера, то вам потрібно ввести такі вхідні дані:
-
-+ Емейл - `false@false.false`
-+ Код - `0`
-+ Інше - `false`
-
-Приклад хибного запиту:
-```graphql
-mutation {
-  signIn(input: {
-    username: "false",
-    password: "false",
-  }) {
-    access
-    refresh
-  }
-}
-```
