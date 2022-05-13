@@ -1,18 +1,18 @@
 ---
 sidebar_position: 1
-title: 📕 Вступ
-description: Тут знаходиться базова інформація для роботи з API Durudex.
+title: 📕 Introduction
+description: Here is the basic information for working with the Durudex API.
 ---
 
-# 📕 Вступ
+# 📕 Introduction
 
-Тут знаходиться базова інформація для роботи з API Durudex.
+Here is the basic information for working with the Durudex API.
 
-## Помилки
+## Errors
 
-Запити до API можуть повертати різні помилки. Це свідчить про неправельні запити, або помилки сервера.
+API requests can return various errors. This is done about incorrect server queries or errors.
 
-Приклад поверненої помилки:
+Example of an error:
 ```json
 {
   "errors": [
@@ -27,14 +27,14 @@ description: Тут знаходиться базова інформація д�
 }
 ```
 
-## Коди помилок
+## Error codes
 
-Вам можуть бути повернені такі коди помилок:
+The following error codes may be returned to you:
 
 ```json title=codes.json
 {
-  "SERVER_ERROR": "Помилка сервера.",
-  "INTERNAL_SERVER_ERROR": "Внутрішня помилка сервера.",
-  "INVALID_ARGUMENT": "Недійсний аргумент."
+  "SERVER_ERROR": "Server error.",
+  "INTERNAL_SERVER_ERROR": "Internal server error.",
+  "INVALID_ARGUMENT": "Invalid argument."
 }
 ```
