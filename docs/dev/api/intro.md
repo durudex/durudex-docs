@@ -35,6 +35,8 @@ The following error codes may be returned to you:
 {
   "SERVER_ERROR": "Server error.",
   "INTERNAL_SERVER_ERROR": "Internal server error.",
-  "INVALID_ARGUMENT": "Invalid argument."
+  "INVALID_ARGUMENT": "Invalid argument.",
+  "NOT_FOUND": "Not found.",
+  "ALREADY_EXISTS": "Already exists."
 }
 ```
