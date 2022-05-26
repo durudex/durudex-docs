@@ -55,13 +55,13 @@ mutation {
 
 You will be refunded the authentication tokens of your account
 
-## Authentication
+## Authorization
 
-Authentication is required in some requests in order to recognize the user. To do this, we have
-two tokens are used, `access` and `refresh`.
+Authorization is required in some requests to control the level of access to resources.
+To do this, we have two tokens are used, `access` and `refresh`.
 
 **Access** - it is a JWT token that is valid for a small amount of time. It is used in queries
-who need authentication.
+who need аuthorization.
 
 **Refresh** - is a token used to update the access token.
 
@@ -72,7 +72,7 @@ mutation {
 }
 ```
 
-To send a request that requires authentication, you need to add an http header:
+To send a request that requires authorization, you need to add an http header:
 
 ```json
 {
@@ -82,7 +82,7 @@ To send a request that requires authentication, you need to add an http header:
 
 ## Sign Out
 
-In order to log out of your account, you need to refresh the token and be authenticated.
+In order to log out of your account, you need to refresh the token and be authorized.
 
 Request to sign out:
 ```graphql
