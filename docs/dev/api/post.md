@@ -10,11 +10,11 @@ Here is interesting information about working with posts in our API.
 
 ## Create
 
-Для створення нового допису вам потрібно бути авторизованому. Також вам знадобляться такі дані:
+You need to be authorized to create a new post. You will also need the following information:
 
-+ Text - Головний текст вашого допису.
++ Text - The main text of your post.
 
-Запит для створення нового допису:
+Request to create a new post:
 
 ```graphql
 mutation {
@@ -24,9 +24,9 @@ mutation {
 
 ## Delete
 
-Для видалення допису вам потрібно бути авторизованому.
+You need to be authorized to delete your post.
 
-Запит для видалення допису:
+Request to delete a post:
 
 ```graphql
 mutation {
@@ -36,9 +36,9 @@ mutation {
 
 ## Update
 
-Для оновлення допису вам потрібно бути авторизованому.
+You need to be authorized to update your post.
 
-Запит для оновлення допису:
+Request to update a post:
 
 ```graphql
 mutation {
@@ -51,7 +51,7 @@ mutation {
 
 ## Get
 
-Запит для отримання допису:
+Request to get a post using id:
 
 ```graphql
 query {
