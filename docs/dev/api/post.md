@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Post
+title: 📄 Post
 description: Here is interesting information about working with posts in our API.
 ---
 
