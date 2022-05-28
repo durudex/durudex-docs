@@ -18,12 +18,12 @@ They can help us by taking a surveys such as:
 
 ## How the survey works?
 
-To take part of the survey, the user must enter a certain amount of project coins into the voting account. 
+To take part of the survey, the user must enter a certain amount of project tokens into the voting account. 
 The results of the poll will be known when there is 85% of the votes. At the end, everyone who took part of 
-the survey get 70% back of the amount of coins that the user contributed. But where does the other 30% go? 
+the survey get 70% back of the amount of tokens that the user contributed. But where does the other 30% go? 
 They go to developers account, who helped develop the project.
 
-## How to get coins?
+## How to get tokens?
 
 This can be done in many ways, the main thing is to get them yourself.
 
@@ -33,6 +33,6 @@ This can be done in many ways, the main thing is to get them yourself.
 
 ## What is developer account?
 
-This is an account where developers can store their coins. At the end of each month, these coins will be 
+This is an account where developers can store their tokens. At the end of each month, these tokens will be 
 distributed among all the developers on the list, and the list will be cleared. To get on this list you need 
 to help the project with something. The more you help, the more reward you will receive.
