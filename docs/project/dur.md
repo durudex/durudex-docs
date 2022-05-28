@@ -1,31 +1,31 @@
 ---
 sidebar_position: 3
 title: 🪙 DUR
-description: DUR - це токен який створений в мережі Near Protocol, він буде використовуватися в додатках Durudex.
+description: DUR is a token created in the Near Protocol network, it will be used in Durudex applications.
 ---
 
-# 🪙 Durudex Токен
+# 🪙 Durudex token
 
-DUR - це токен який створений в мережі [Near Protocol](https://near.org), він буде використовуватися в додатках Durudex.
+DUR - DUR is a token created in the [Near Protocol](https://near.org) network, it will be used in Durudex applications.
 
-## Токеноміка
+## Tokenomics
 
-Загальна пропозиція токенів DUR в мережі Near буде дорівнювати 1 000 0000 000 DUR.
+The total supply of DUR tokens in the Near network will be equal to 1,000,000,000 DUR.
 
-### Розподілення
+### Distribution
 
-- 30% Щомісячна підтримка розробників (300 000 000 DUR)
+- 30% Developers support every month (300 000 000 DUR)
 
-Кожного місяця не вилика кількість токенів буде розподілена між активними розробниками.
+Each month, the number of tokens will be distributed among active developers.
 
-- 15% Розвиток екосистеми (150 000 000 DUR)
+- 15% Ecosystem development (150 000 000 DUR)
 
-Фінансування екосистеми Durudex.
+Financial support for the Durutex ecosystem.
 
-- 15% Нагороди (150 000 000 DUR)
+- 15% Awards (150 000 000 DUR)
 
-Нагороди користувачів.
+User's awards.
 
-- 5% Будуть розділені після релізу (50 000 000 DUR)
+- 5% Will be separated after release (50 000 000 DUR)
 
-Ці токени будуть розділені між всіма розробниками які приймали участь в розробці до релізу.
+These tokens will be shared among all developers who participated in the development before the release.
