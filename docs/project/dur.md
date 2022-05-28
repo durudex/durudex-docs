@@ -14,18 +14,18 @@ The total supply of DUR tokens in the Near network will be equal to 1,000,000,00
 
 ### Distribution
 
-- 30% Developers support every month (300 000 000 DUR)
+- 30% Developers support every month (300,000,000 DUR)
 
 Each month, the number of tokens will be distributed among active developers.
 
-- 15% Ecosystem development (150 000 000 DUR)
+- 15% Ecosystem development (150,000,000 DUR)
 
 Financial support for the Durutex ecosystem.
 
-- 15% Awards (150 000 000 DUR)
+- 15% Awards (150,000,000 DUR)
 
 User's awards.
 
-- 5% Will be separated after release (50 000 000 DUR)
+- 5% Will be separated after release (50,000,000 DUR)
 
 These tokens will be shared among all developers who participated in the development before the release.
