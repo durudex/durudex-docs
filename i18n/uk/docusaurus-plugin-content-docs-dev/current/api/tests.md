@@ -45,7 +45,7 @@ API_PORT=8000
 ## Docker контейнер
 
 Також ви можете використовувати готовий docker контейнер 
-[v1def/durudex-test-api](https://hub.docker.com/repository/docker/v1def/durudex-test-api).
+[durudex/durudex-test-api](https://hub.docker.com/repository/docker/durudex/durudex-test-api).
 
 #### Приклади використання контейнера:
 

@@ -55,7 +55,7 @@ mutation {
 ## Docker container
 
 You can also use a ready-made docker container
-[v1def/durudex-test-api](https://hub.docker.com/repository/docker/v1def/durudex-test-api).
+[durudex/durudex-test-api](https://hub.docker.com/repository/docker/durudex/durudex-test-api).
 
 #### Samples of using container:
 
