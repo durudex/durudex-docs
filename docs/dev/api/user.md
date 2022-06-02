@@ -113,6 +113,22 @@ mutation {
 }
 ```
 
+## Get yourself
+
+You can get all the public information about yourself, you need to be authorized.
+
+Request for get information about yourself:
+```graphql
+query {
+  me {
+    username
+    avatarUrl
+    createdAt
+    ...
+  }
+}
+```
+
 ## Get the user
 
 You can get all the public information about the user.
