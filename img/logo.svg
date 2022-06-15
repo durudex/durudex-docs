@@ -1,1 +1,14 @@
-<svg id="Шар_1" data-name="Шар 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.55 336.13"><defs><style>.cls-1{fill:#26dbdb;}</style></defs><path class="cls-1" d="M224.78,60.61Q210,34.75,181.58,21.28T113,7.8H6.69V66H67.6v.13h46.7q29.83,0,46.18,14.37t16.35,40.65v94.58q0,26.29-16.35,40.65T114.3,270.74H6.69v58.34H112.75q41.33,0,69.83-14.36t42.75-40.22Q239.6,248.65,239.59,214v-91Q239.59,86.46,224.78,60.61Z"/><rect class="cls-1" x="6.69" y="145.4" width="95.22" height="58.78"/><rect class="cls-1" x="6.69" y="191.33" width="58.47" height="96.76"/></svg>
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="96" cy="96" r="96" fill="url(#paint0_linear_117_2)"/>
+<path d="M128.388 38.25H42L66.0167 59.129H123.848C125.664 59.3199 125.959 61.1175 125.879 61.9924V125.345C124.732 130.499 120.223 132.186 118.112 132.385H86.5682V153.264C99.4727 153.462 125.282 153.741 125.282 153.264C144.591 152.691 149.497 139.742 149.537 133.339V61.3959C150.302 43.9291 135.757 38.6875 128.388 38.25Z" fill="white"/>
+<path d="M77.9652 108.046V153.264H59.6839V128.328L77.9652 108.046Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_117_2" x1="15.9671" y1="22.078" x2="184.903" y2="184.706" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9"/>
+<stop offset="0.0001" stop-color="#9123B8"/>
+<stop offset="0.557292" stop-color="#774FED"/>
+<stop offset="1" stop-color="#4B5CFA"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
