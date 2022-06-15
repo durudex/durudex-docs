@@ -144,7 +144,7 @@ const config = {
     ({
       hideableSidebar: true,
       navbar: {
-        hideOnScroll: true,
+        hideOnScroll: false,
         title: 'Durudex',
         logo: {
           alt: 'durudex-logo',
