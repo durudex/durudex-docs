@@ -2,5 +2,9 @@
   "version.label": {
     "message": "Наступна",
     "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Ecosystem": {
+    "message": "Екосистема",
+    "description": "The label for category Ecosystem in sidebar tutorialSidebar"
   }
 }
