@@ -1,44 +1,44 @@
 ---
 sidebar_position: 1
 title: 🎁 Discord Promo Bot
-description: Discord бот для розіграшу токенів DUR за допомоги системи промокодів.
+description: Discord bot for drawing DUR tokens to help promo code systems.
 ---
 
 # 🎁 Discord Promo Bot
 
-Discord бот для розіграшу токенів DUR за допомоги системи промокодів.
+Discord bot for drawing DUR tokens to help promo code systems.
 
-## Початок
+## Start
 
-Для того щоб почати використовувати бота вам потрібно бути зареєстрованому. Перевірити це можна виконавши команду
+To start using this bot you need to complete registration. To check this you can run the command:
 `/register`.
 
-## Використання промокоду
+## Using a promo code
 
-Щоб використати промокод вам потрібно виконати команду `/use`, ви зможете використати промокод тільки один раз.
-Якщо у вас немає промокоду то ви можете використати звичайний промокод `durudex`.
+In order to use the promo code you need to run `/use`, you can use the code only once.
+If you do not have a promo code then you can use a regular promo code `durudex`.
 
-## Нагороди
+## Rewards
 
-За використання любого промокоду ви та автор промокоду отримаєте певну кількість токенів на ваш рахунок discord.
+By using any promo code, you and the author of the promo code will receive a certain number of tokens on your discord account.
 
-## Створення промокоду
+## Creating a promo code
 
-Для того щоб створити власний промокод вам потрібно виконати команду `/create`. Зауважте, промокод повинен бути створений
-за такими правилами:
+To create your own promo code run `/create`. Note that a promo code must be created
+according to the rules.
 
-#### Правила промокоду
+#### Promo code rules
 
-+ Дозволені латинські букви в нижньому та верхньому регістрі `a-z A-Z`
-+ Дозволені арабські цифри `0-9`
-+ Дозволені символи `-_.`
-+ Розмір промокоду повинен бути від 3 до 12 символів
++ Lowercase and uppercase Latin letters are allowed `a-z A-Z`
++ Arabic numerals allowed `0-9`
++ Characters allowed `-_.`
++ The size of the promo code should be from 3 to 12 characters
 
-## Інформація про користувача
+## Information for the user
 
-Ви можете отримати всю публічну інформацію про себе та інших користувачів виконавши команду `/user`.
+You can get all the public information about yourself and other users by running the command `/user`.
 
-## Вихідний код
+## Source code
 
-Для отримання посилання на вихідний код бота вам потрібно виконати команду `/github`, або перейти по
-посиланню - [durudex/discord-promo-bot](https://github.com/durudex/discord-promo-bot).
+To get a link to the source code of the bot you need to run the command `/github`, or go to
+link - [durudex/discord-promo-bot](https://github.com/durudex/discord-promo-bot).
