@@ -20,7 +20,7 @@ Each month, the number of tokens will be distributed among active developers.
 
 - 15% Ecosystem development (150,000,000 DUR)
 
-Financial support for the Durutex ecosystem.
+Financial support for the Durudex ecosystem.
 
 - 15% Awards (150,000,000 DUR)
 
