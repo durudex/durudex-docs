@@ -39,18 +39,9 @@ To start you need to enter this command in the terminal `make`. Now you can open
 
 We use GraphQL for server interaction. You can use query editors for test queries. If you need a direct link for queries, add `/query` to the main link.
 
-Request to create an account:
-```graphql
-mutation {
-  signUp(input: {
-    username: "example",
-    email: "example@durudex.com"
-    password: "qwerty",
-    code: "111111"
-  })
-}
-```
-
+:::tip
+A direct link to the API only accepts POST requests.
+:::
 
 ## Docker container
 
