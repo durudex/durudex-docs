@@ -91,7 +91,6 @@ mutation {
 }
 ```
 
-
 ## Forgot password 
 
 If you need to reset your user password, you will need the following information:
@@ -157,6 +156,6 @@ mutation {
 
 The specified e-mail will receive a message with a confirmation code.
 
-:::tip
+:::caution
 Use this code as soon as possible, it doesn't last long.
 :::
