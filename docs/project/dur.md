@@ -1,31 +1,37 @@
 ---
 sidebar_position: 3
 title: 🪙 DUR
-description: DUR is a token created in the Near Protocol network, it will be used in Durudex applications.
+description: DUR - is a cryptocurrency used in Durudex applications.
 ---
 
 # 🪙 Durudex token
 
-DUR - DUR is a token created in the [Near Protocol](https://near.org) network, it will be used in Durudex applications.
+DUR - is a cryptocurrency used in Durudex applications.
 
 ## Tokenomics
 
-The total supply of DUR tokens in the Near network will be equal to 1,000,000,000 DUR.
+#### Name - Durudex
+#### Symbol - DUR
+#### Max Supply - 1,000,000,000 DUR
 
-### Distribution
+## Distribution
 
-- 30% Developers support every month (300,000,000 DUR)
+#### 35% Developer support (350 000 000 DUR)
 
-Each month, the number of tokens will be distributed among active developers.
+- 30% Support of active developers every month.
 
-- 15% Ecosystem development (150,000,000 DUR)
+- 5% Will be distributed among all developers who participated in the development before the release.
 
-Financial support for the Durudex ecosystem.
+#### 35% A reserve fund that will be distributed according to needs (350 000 000 DUR)
 
-- 15% Awards (150,000,000 DUR)
+- A reserve fund that will be distributed in the future for new upgrades and needs.
 
-User's awards.
+#### 15% Ecosystem development (150,000,000 DUR)
 
-- 5% Will be separated after release (50,000,000 DUR)
+- This amount of DUR will be directed to the development of the durudex ecosystem.
 
-These tokens will be shared among all developers who participated in the development before the release.
+#### 15% Awards (150,000,000 DUR)
+
+- 10% Reward staking.
+
+- 5% AIR drops.
