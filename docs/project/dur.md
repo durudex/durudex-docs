@@ -35,3 +35,5 @@ DUR - is a cryptocurrency used in Durudex applications.
 - 10% Reward staking.
 
 - 5% AIR drops.
+
+![DUR allocation](/img/allocation.svg 'DUR allocation')
