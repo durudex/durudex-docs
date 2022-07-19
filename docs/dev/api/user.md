@@ -28,9 +28,14 @@ mutation {
     email: "example@durudex.com",
     password: "qwerty",
     code: "123456"
-  })
+  }) {
+      access
+      refresh
+    }
 }
 ```
+
+You will be refunded the authentication tokens of your account.
 
 ## Sign In
 
@@ -53,7 +58,7 @@ mutation {
 }
 ```
 
-You will be refunded the authentication tokens of your account
+You will be refunded the authentication tokens of your account.
 
 ## Authorization
 
@@ -122,7 +127,6 @@ query {
   me {
     username
     avatarUrl
-    createdAt
     ...
   }
 }
@@ -138,7 +142,6 @@ query {
   user(id: "user-id") {
     username
     avatarUrl
-    createdAt
     ...
   }
 }

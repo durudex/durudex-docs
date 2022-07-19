@@ -28,9 +28,14 @@ mutation {
     email: "example@durudex.com",
     password: "qwerty",
     code: "123456"
-  })
+  }) {
+      access
+      refresh
+    }
 }
 ```
+
+Вам будуть повернені токени аутентифікації вашого облікового запису.
 
 ## Вхід
 
@@ -123,7 +128,6 @@ query {
   me {
     username
     avatarUrl
-    createdAt
     ...
   }
 }
@@ -139,7 +143,6 @@ query {
   user(id: "user-id") {
     username
     avatarUrl
-    createdAt
     ...
   }
 }
