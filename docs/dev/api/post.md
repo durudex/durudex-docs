@@ -8,7 +8,7 @@ description: Here is interesting information about working with posts in our API
 
 Here is interesting information about working with posts in our API.
 
-## Create
+## Create post
 
 You need to be authorized to create a new post. You will also need the following information:
 
@@ -22,7 +22,7 @@ mutation {
 }
 ```
 
-## Delete
+## Delete post
 
 You need to be authorized to delete your post.
 
@@ -34,7 +34,7 @@ mutation {
 }
 ```
 
-## Update
+## Update post
 
 You need to be authorized to update your post.
 
@@ -49,7 +49,7 @@ mutation {
 }
 ```
 
-## Get
+## Get post
 
 Request to get a post using id:
 
