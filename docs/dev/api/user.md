@@ -12,10 +12,10 @@ Here is interesting information about working with users in our API.
 
 You'll need the following information to create a new user account:
 
-+ Username - Unique username
-+ Password - Strong password
-+ Email - User's email address
-+ Code - E-mail confirmation code
++ `username` - Unique username
++ `password` - Strong password
++ `email` - User's email address
++ `code` - E-mail confirmation code
 
 You can learn how to get the verification code [here](#get-verification-code).
 
@@ -41,8 +41,8 @@ You will be refunded the authentication tokens of your account.
 
 You will need your credentials to sign in to your account:
 
-+ Username - Your account name
-+ Password - Your account password
++ `username` - Your account name
++ `password` - Your account password
 
 Request to log in to your account:
 
@@ -100,9 +100,9 @@ mutation {
 
 If you need to reset your user password, you will need the following information:
 
-+ Email - User's email address
-+ Password - New strong user password
-+ Code - Code to confirm of the e-mail
++ `email` - User's email address
++ `password` - New strong user password
++ `code` - Code to confirm of the e-mail
 
 You can learn how to get the verification code [here](#get-verification-code).
 

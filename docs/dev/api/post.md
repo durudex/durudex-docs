@@ -12,7 +12,7 @@ Here is interesting information about working with posts in our API.
 
 You need to be authorized to create a new post. You will also need the following information:
 
-+ Text - The main text of your post.
++ `text` - The main text of your post
 
 Request to create a new post:
 
@@ -44,7 +44,7 @@ Request to update a post:
 mutation {
   updatePost(input: {
     id: "post-id",
-    text: "Durudex to the moon"
+    text: "Durudex to the moon 🚀"
   })
 }
 ```
@@ -57,9 +57,32 @@ Request to get a post using id:
 query {
   post(id: "post-id") {
     text
-    createdAt
     author {
       id
+    }
+  }
+}
+```
+
+## Get user posts
+
+Arguments `posts()`:
+
++ `first` - Returns the first n elements from the list
+
++ `last` - Returns the last n elements from the list
+
+Request to get a list of user posts:
+
+```graphql
+query {
+  user(id: "user-id") {
+    posts(first: 10) {
+      nodes {
+        id
+        text
+        attachments
+      }
     }
   }
 }
