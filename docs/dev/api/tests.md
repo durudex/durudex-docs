@@ -58,3 +58,24 @@ You can also use a ready-made docker container
 #### Samples of using container:
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
+
+## Configuration
+
+To configure the test API, you need to go to `configs/` and create or edit an existing one
+configuration file.
+
+An example of a configuration file:
+
+```yml title=main.yml
+http:
+  host: "api.test.durudex.com"
+  port: 8000
+  name: "Durudex Test API"
+
+auth:
+  ttl: 15m # JWT access token ttl
+```
+
+:::caution
+To change the configuration file, you need to change `CONFIG_PATH=you-path` to `.env`.
+:::

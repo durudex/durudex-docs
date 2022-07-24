@@ -61,3 +61,24 @@ JWT_SIGNING_KEY=
 #### Приклади використання контейнера:
 
 + [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
+
+## Конфігурація
+
+Для налаштування тестового API вам потрібно перейти в `configs/` і створити або відредагувати існуючий
+файл конфігурації.
+
+Приклад файла конфігурації:
+
+```yml title=main.yml
+http:
+  host: "api.test.durudex.com"
+  port: 8000
+  name: "Durudex Test API"
+
+auth:
+  ttl: 15m # JWT access token ttl
+```
+
+:::caution
+Для зміни файла конфігурації вам потрібно змінити `CONFIG_PATH=you-path` в `.env`.
+:::
