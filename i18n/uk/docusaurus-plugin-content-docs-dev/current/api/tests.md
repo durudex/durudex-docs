@@ -32,7 +32,14 @@ touch .env
 
 Потрібно відредагувати `.env` файл по даному прикладу:
 ```env
-API_PORT=8000
+# Debug mode.
+DEBUG=false
+
+# Config variables:
+CONFIG_PATH=configs/main
+
+# Auth variables:
+JWT_SIGNING_KEY=
 ```
 
 Для запуску вам потрібно ввести в термінал `make`. Тепер ви можете відчинити [localhost:8000](http://localhost:8000).

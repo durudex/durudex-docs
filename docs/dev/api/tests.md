@@ -30,7 +30,14 @@ touch .env
 
 You need to edit `.env` file as shown here:
 ```env
-API_PORT=8000
+# Debug mode.
+DEBUG=false
+
+# Config variables:
+CONFIG_PATH=configs/main
+
+# Auth variables:
+JWT_SIGNING_KEY=
 ```
 
 To start you need to enter this command in the terminal `make`. Now you can open [localhost:8000](http://localhost:8000).
