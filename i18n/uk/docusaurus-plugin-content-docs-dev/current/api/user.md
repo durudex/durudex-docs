@@ -27,7 +27,7 @@ mutation {
     username: "example",
     email: "example@durudex.com",
     password: "qwerty",
-    code: "123456"
+    code: 123456
   }) {
       access
       refresh
@@ -113,7 +113,7 @@ mutation {
   forgotPassword(input: {
     email: "example@durudex.com",
     password: "qwerty",
-    code: "123456"
+    code: 123456
   })
 }
 ```
