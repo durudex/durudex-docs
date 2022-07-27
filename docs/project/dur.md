@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 title: 🪙 DUR
 description: DUR - is a cryptocurrency used in Durudex applications.
 ---
@@ -16,13 +16,13 @@ DUR - is a cryptocurrency used in Durudex applications.
 
 ## Distribution
 
-#### 35% Developer support (350 000 000 DUR)
+#### 35% Developer support (350,000,000 DUR)
 
 - 30% Support of active developers every month.
 
 - 5% Will be distributed among all developers who participated in the development before the release.
 
-#### 35% A reserve fund that will be distributed according to needs (350 000 000 DUR)
+#### 35% A reserve fund that will be distributed according to needs (350,000,000 DUR)
 
 - A reserve fund that will be distributed in the future for new upgrades and needs.
 
