@@ -8,20 +8,13 @@ description: You can help develop Durudex.
 
 You can help develop Durudex.
 
-# 🛠 How can I participate in the development?
+## Participation in development
 
-If you a lot of cool ideas and you want to add or fix something, then you can take part in the development.
-Yo can do this in several ways. If you know how to:
+We allow everyone who wants to take part in the development, useful tips that you can get for your contribution
+on our [Discord server](https://discord.gg/4qcXbeVehZ).
 
-## Code
+## Awards
 
-You need to create Fork from one of our Github repositories and you can create or change what you want.
-At the end you need to do pull request to main repository. if the development team likes it 
-then it will be accepted.
-And if not then you will be told what is wrong so you can fix it.
-
-## Create a design
-
-Once you have completed your work, you need to write to us in our [Discord server](https://discord.gg/4qcXbeVehZ).
-You will be contacted by designers from the Durudex team, make sure they have the role of Durudex Team. They will review your
-work, and decide what to do with it.
+You can also receive rewards for your participation in development. There are two types of awards, `release` is the one 
+that is distributed among everyone by developers at release, and `monthly` are monthly rewards that are distributed 
+among active developers for that month.
