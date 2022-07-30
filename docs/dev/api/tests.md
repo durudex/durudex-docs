@@ -57,7 +57,7 @@ You can also use a ready-made docker container
 
 #### Samples of using container:
 
-+ [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
+- [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
 
 ## Configuration
 

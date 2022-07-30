@@ -12,7 +12,7 @@ Here is interesting information about working with posts in our API.
 
 You need to be authorized to create a new post. You will also need the following information:
 
-+ `text` - The main text of your post
+- `text` - The main text of your post
 
 Request to create a new post:
 
@@ -68,9 +68,8 @@ query {
 
 Arguments `posts()`:
 
-+ `first` - Returns the first n elements from the list
-
-+ `last` - Returns the last n elements from the list
+- `first` - Returns the first n elements from the list
+- `last` - Returns the last n elements from the list
 
 Request to get a list of user posts:
 

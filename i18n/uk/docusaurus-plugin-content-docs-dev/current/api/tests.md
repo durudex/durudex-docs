@@ -60,7 +60,7 @@ JWT_SIGNING_KEY=
 
 #### Приклади використання контейнера:
 
-+ [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
+- [durudex/durudex-test-api](https://github.com/durudex/durudex-test-api/tree/main/deploy)
 
 ## Конфігурація
 
