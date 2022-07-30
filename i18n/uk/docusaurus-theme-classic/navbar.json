@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Project": {
-    "message": "Проєкт",
+    "message": "Проeкт",
     "description": "Navbar item with label Project"
   },
   "item.label.Dev": {

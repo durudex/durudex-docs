@@ -1,38 +1,23 @@
 ---
 sidebar_position: 1
 title: 👋 Introduction
-description: Hello, we are Durudex team. We want to tell you everything about our project.
+description: Durudex is an open social network of the future.
 ---
 
 # 👋 Introduction
 
-Hello, we are Durudex team. We want to tell you everything about our project. Durudex is free social media, 
-where users play a significant role.
+**Durudex** is an open social network of the future. In which important role do users play, each of you
+can contribute to this project.
 
-# 🤔 How exactly users affect Durudex?
+## Freedom
 
-They can help us by taking a surveys such as:
+We are not going to limit users in their expression, the rules of the community will be determined by the users themselves.
 
-- What content should be blocked.
-- Rewards for development assistance.
+## Users Choice
 
-## How the survey works?
+We value the choice of each user, so we allow everyone to participate in voting.
 
-To take part of the survey, the user must enter a certain amount of project tokens into the voting account. 
-The results of the poll will be known when there is 85% of the votes. At the end, everyone who took part of 
-the survey get 70% back of the amount of tokens that the user contributed. But where does the other 30% go? 
-They go to developers account, who helped develop the project.
-
-## How to get tokens?
-
-This can be done in many ways, the main thing is to get them yourself.
-
-- Get rewarded for achievement.
-- Sell NFT.
-- Development assistance.
-
-## What is developer account?
-
-This is an account where developers can store their tokens. At the end of each month, these tokens will be 
-distributed among all the developers on the list, and the list will be cleared. To get on this list you need 
-to help the project with something. The more you help, the more reward you will receive.
+## Open Source
+ 
+All the source code of the project is open, this is done so that anyone who wants to be able to make sure of their safety. Also
+important parts of Durudex will be fully decentralized.
