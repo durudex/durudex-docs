@@ -39,9 +39,14 @@ The following error codes may be returned to you:
   "INVALID_ARGUMENT": "Invalid argument",
   "NOT_FOUND": "Not found",
   "ALREADY_EXISTS": "Already exists",
-  "COMPLEXITY_LIMIT_EXCEEDED": "Request complexity level exceeded"
+  "COMPLEXITY_LIMIT_EXCEEDED": "Request complexity level exceeded",
+  "GRAPHQL_VALIDATION_FAILED": "GraphQL query validation error"
 }
 ```
+
+:::tip
+A complete list of codes can be found in [durudex/durudex-assets](https://github.com/durudex/durudex-assets/blob/main/api/codes.json)
+:::
 
 ## Complexity
 
