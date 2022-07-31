@@ -40,7 +40,7 @@ DUR - is a cryptocurrency used in Durudex applications.
 
 A small amount of DUR (5%) will be distributed to users to create initial liquidity.
 
-With the help of [Discord bot](/ecosystem/discord-promo-bot.md) about 35,000,000 DUR will be raffled off. Award
+With the help of [Discord bot](/ecosystem/discord-promo-bot.md) about 35,000,000 DUR (3,5%) will be raffled off. Award
 will decrease when a certain number of uses is reached:
 
 - `To 1,000` - 1,000 DUR
@@ -48,3 +48,6 @@ will decrease when a certain number of uses is reached:
 - `To 10,000` - 800 DUR
 - `To 30,000` - 700 DUR
 - `To 50,000` - 600 DUR
+
+The remaining DUR (1.5%) will be spent on rewards for content creators. Obtaining the award will be done with help
+Discord bot and be checked by certain people.
